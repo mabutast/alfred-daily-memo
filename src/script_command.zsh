@@ -8,7 +8,7 @@ TIMESTAMP=$(date +%H:%M:%S)
 INPUT="$1"
 
 # ファイルが存在する場合の処理
-if [ -f "$FILEPATH" ]; then
+if [ -s "$FILEPATH" ]; then
     # 既存内容 + 改行×2 + タイムスタンプ + 改行 + 追記内容
     printf "\n\n$TIMESTAMP\n$INPUT" >> "$FILEPATH"
 else
