@@ -17,9 +17,9 @@ Quickly append time-stamped notes to a daily Markdown file. Ideal for rapid jour
 
 ## 📖 Usage
 
-1. Open Alfred and type `n`.
-2. Enter your message (e.g., `n Started working on the project`).
-3. Press **Enter** to save with a timestamp.
+* `n <text>` — Save to your daily memo.
+* `n` — Open today's memo.
+* `⌘↩` — Save and open the file.
 
 ## ⚙️ Configuration
 
